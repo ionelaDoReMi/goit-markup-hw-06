@@ -617,6 +617,11 @@ p {
     min-width: 453px;
 }
 
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
 .subscribe-paragraph {
     font-weight: 500;
     font-size: 16px;
