@@ -472,15 +472,25 @@ p {
 }
 
 .privacy-policy-span {
-    width: 16;
+    width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.checkbox-input:checked + .privacy-policy-span {
+    background-color: var(--hover-focus-navigation-menu);
+    border: none;
+    fill: var(--light-color-logo-and-description);
+}
+
+.privacy-policy-link {
+    color: var(--brand-color);
 }
 
 /* Section 2 */
