@@ -433,10 +433,20 @@ p {
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     resize: none;
+    font-size: 12px;
+}
+
+.model-input-textare:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-textarea {
     margin-bottom: 16px;
+}
+
+.modal-checkbox {
+    margin-bottom: 24px;
+    
 }
 
 .modal-contacts-send-button {
