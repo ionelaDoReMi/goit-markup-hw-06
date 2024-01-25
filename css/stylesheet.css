@@ -485,7 +485,7 @@ p {
     fill: transparent;
 }
 
-.checkbox-input:checked + .privacy-policy-span {
+.checkbox-input:checked + .checkbox-modal-label .privacy-policy-span {
     background-color: var(--hover-focus-navigation-menu);
     border: none;
     fill: var(--light-color-logo-and-description);
