@@ -496,13 +496,15 @@ p {
 }
 
 .checkbox-modal-label {
-font-family: Roboto;
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0.04em;
-text-align: left;
-color: var(--modal-color);
+    display: block;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--modal-color);
+    line-height: 1.17;
 }
 
 /* Section 2 */
