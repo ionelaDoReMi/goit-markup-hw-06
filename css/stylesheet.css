@@ -635,13 +635,24 @@ p {
     display: flex;
 }
 
-.input-e-mail {
+.input-email {
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     height: 40px;
     width: 264px;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+
+}
+
+.input-email::placeholder {
+    color: #ffffff;
 }
 
 .subscribe-button {
@@ -655,13 +666,19 @@ p {
     cursor: pointer;
     border-radius: 4px;
     padding:  8px 16px 8px 24px;
-    max-width: 164px;
+    max-width: 165px;
     height: 40px;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.icon-send {
+    margin-left: 16px; 
+}
 
 /* Business Description */
 .bussines-description {
